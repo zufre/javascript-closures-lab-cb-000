@@ -4,7 +4,7 @@ function bumpCounter() {
   function addBump() {
     counter++;
   }
-  functionn getBumps() {
+  function getBumps() {
     return counter;
   }
 }
