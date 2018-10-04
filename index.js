@@ -1,10 +1,10 @@
 const app = "I don't do much."
 function bumpCounter() {
   var counter;
-  addBump() {
+  addBump => () {
     counter++;
   }
-  getBumps() {
+  getBumps => () {
     return counter;
   }
 }
