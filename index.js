@@ -15,12 +15,11 @@ function bumpCounter() {
 
 function createAnimal(animalType) {
   return function(deadlyDevise) {
-    return { animalType,
-              deadlyDevise}
+    return { animalType, deadlyDevise};
   }
 }
 
 const sharkCreator = createAnimal("Shark");
-const  sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
+const sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
 
 const sharkWithFrickinCannon = sharkCreator('Cannon');
