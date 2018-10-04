@@ -13,18 +13,18 @@ function bumpCounter() {
   };
 }
 
-// function createAnimal(animalType) {
-//   return function (deadlyDevise) {
-//     return { animalType, deadlyDevise };
-//   }
-// }
 function createAnimal(animalType) {
-
-  return function (deadlyDevice) {
-    return { animalType, deadlyDevice };
+  return function (deadlyDevise) {
+    return { animalType, deadlyDevise };
   }
-
 }
+// function createAnimal(animalType) {
+//  
+//   return function (deadlyDevice) {
+//     return { animalType, deadlyDevice };
+//   }
+//   
+// }
 
 const sharkCreator = createAnimal("Shark");
 const sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
