@@ -12,3 +12,10 @@ function bumpCounter() {
     getBumps
   };
 }
+
+function createAnimal(animalType) {
+  return function(deadlyDevise) {
+    return { animalType: animalType;
+              deadlyDevise: deadlyDevise}
+  }
+}
