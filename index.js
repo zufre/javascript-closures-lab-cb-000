@@ -14,12 +14,12 @@ function bumpCounter() {
 }
 
 function createAnimal(animalType) {
-//   return function (deadlyDevise) {
+  return function (deadlyDevise) {
 //     return { animalType, deadlyDevise };
 //   }
 // }
 // function createAnimal(animalType) {
-  return function (deadlyDevice) {
+  // return function (deadlyDevice) {
     return { animalType, deadlyDevice };
   }
 }
