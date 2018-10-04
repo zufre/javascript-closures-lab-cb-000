@@ -19,7 +19,10 @@ function createAnimal(animalType) {
   }
 }
 
-const sharkCreator = createAnimal("Shark");
+// const sharkCreator = createAnimal("Shark");
+// const sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
+// 
+// const sharkWithFrickinCannon = sharkCreator('Cannon');
+const sharkCreator = createAnimal('Shark');
 const sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
-
 const sharkWithFrickinCannon = sharkCreator('Cannon');
