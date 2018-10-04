@@ -18,7 +18,7 @@ function createAnimal(animalType) {
   return function (deadlyDevise) {
     return { animalType, deadlyDevise };
   }
-  
+
 }
 
 const sharkCreator = createAnimal("Shark");
