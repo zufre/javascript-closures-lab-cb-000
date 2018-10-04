@@ -19,11 +19,9 @@ function createAnimal(animalType) {
   }
 }
 // function createAnimal(animalType) {
-//  
 //   return function (deadlyDevice) {
 //     return { animalType, deadlyDevice };
 //   }
-//   
 // }
 
 const sharkCreator = createAnimal("Shark");
