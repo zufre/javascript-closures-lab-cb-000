@@ -19,3 +19,5 @@ function createAnimal(animalType) {
               deadlyDevise: deadlyDevise}
   }
 }
+
+sharkCreator = createAnimal("Shark")
