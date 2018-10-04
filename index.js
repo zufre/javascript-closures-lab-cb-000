@@ -14,13 +14,13 @@ function bumpCounter() {
 }
 
 function createAnimal(animalType) {
-  return function(deadlyDevise) {
-    return { animalType,
-              deadlyDevise}
+ 
+  return function (deadlyDevice) {
+    return { animalType, deadlyDevice };
   }
+  
 }
 
-var sharkCreator = createAnimal("Shark");
-var sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
-
-var sharkWithFrickinCannon = sharkCreator('Cannon');
+const sharkCreator = createAnimal('Shark');
+const sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
+const sharkWithFrickinCannon = sharkCreator('Cannon');
